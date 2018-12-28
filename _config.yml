@@ -16,7 +16,7 @@
 title: Maco
 email: zhang_zhifang169@163.com
 description: >- # this means to ignore newlines until "baseurl:"
-   © 2019 Maco 保留所有权利。
+   ©  2019 Maco  保留所有权利。
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://superhaifeng.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Macode
@@ -27,6 +27,10 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+lsi : true  #为相关帖子创建索引
+# safe : true
+# highlighter: rouge #荧光笔
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

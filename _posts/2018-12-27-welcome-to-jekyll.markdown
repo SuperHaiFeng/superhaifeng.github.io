@@ -10,11 +10,11 @@ categories: Maco
 
 Lou Montulli(卢·蒙特利)，那时是网景通讯的一个雇员，被认为在1994年将“magic cookies”的概念应用到了web通讯中。他意图解决的是web中的购物车，现在所有购物网站都依赖购物车。他的最早的说明文档提供了一些cookies工作原理的基本信息该文档在RFC2109中被规范化（这是所有浏览器实现cookies的参考依据），并且最终逐步形成了REF2965.Montulli最终也被授予了关于cookies的美国专利。网景浏览器在它的第一个版本中就开始支持cookies，并且当前所有web浏览器都支持cookies。
 
-RFC2109 https://tools.ietf.org/html/rfc2109
+ [RFC2109](https://tools.ietf.org/html/rfc2109)
 
-RFC2965 https://tools.ietf.org/html/rfc2965    Set-Cookie2
+ [RFC2965](https://tools.ietf.org/html/rfc2965) 
 
-RFC6265 https://tools.ietf.org/html/rfc6265
+ [RFC6265](https://tools.ietf.org/html/rfc6265)
 
 #### cookie是什么
 
@@ -135,7 +135,7 @@ Cookie:name1=value1 ; name2=value2 ; name3=value3
 
 ### Cookie在Android中的使用
 
-####Cookie持久化
+**Cookie持久化**
 
 持久化保存cookie有很多方式，可以用数据库，可以用文件，SharedPreferences，还可以保存到系统Webview的CookieManager里（其实也是个数据库）。
 
@@ -143,7 +143,9 @@ Cookie:name1=value1 ; name2=value2 ; name3=value3
 
 例子：
 
-https://github.com/franmontiel/PersistentCookieJar  A persistent CookieJar implementation for OkHttp 3 based on SharedPreferences.
+[https://github.com/franmontiel/PersistentCookieJar](https://github.com/franmontiel/PersistentCookieJar) 
+
+  A persistent CookieJar implementation for OkHttp 3 based on SharedPreferences.
 
 #### OkHttp3 中实现 Cookie 持久化管理
 
