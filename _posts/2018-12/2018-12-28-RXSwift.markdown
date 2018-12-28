@@ -3,10 +3,9 @@ layout: post
 title: "RXSwift函数响应式编程的讲解以及实现方式"
 data: 2018-12-28 
 categories: Maco
-image_baseUrl: ../../../../assets/swift_img/
 ---
 
-![]({{layout.image_baseUrl}}rxswift.png)
+![](../../../../assets/swift_img/rxswift.png)
 
 ### [函数式编程](https://en.wikipedia.org/wiki/Functional_programming)
 
