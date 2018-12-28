@@ -30,7 +30,7 @@ plugins:
 
 lsi : true  #为相关帖子创建索引
 # safe : true
-# highlighter: rouge #荧光笔
+highlighter: rouge #荧光笔
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

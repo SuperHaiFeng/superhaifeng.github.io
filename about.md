@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
 
 
-[jekyll-organization]: https://github.com/jekyll
+Maco现在主要从事iOS开发。
+
+您可以访问我的Github：[Maco](https://github.com/SuperHaiFeng)    、   [Cocoapods](https://cocoapods.org/owners/37703)   、  [Super张子枫](https://weibo.com/u/1804548547)
+
+[Maco-organization]: https://github.com/SuperHaiFeng
