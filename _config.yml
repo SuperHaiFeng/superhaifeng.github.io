@@ -15,12 +15,19 @@
 # in the templates via {{ site.myvariable }}.
 title: Maco
 email: zhang_zhifang169@163.com
+email_name: 邮箱
+name: Maco
 description: >- # this means to ignore newlines until "baseurl:"
    ©  2019 Maco  保留所有权利。
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://superhaifeng.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Macode
 github_username:  SuperHaiFeng
+weibo_username: "1804548547"
+weibo_nickname: "Super张子枫"
+description_footer: 来自Maco的技术专栏 
+pages: "2"
+header_pages: "2"
 
 # Build settings
 markdown: kramdown
@@ -31,6 +38,22 @@ plugins:
 lsi : true  #为相关帖子创建索引
 # safe : true
 highlighter: rouge #荧光笔
+
+#评论插件
+disqus_shortname: Maco
+
+
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+# baidu_tongji_id: 1cc1fc4b4b456bf7c99ce80aec5bf009
+# google_analytics_id: UA-72449510-4 # google 分析追踪id
+
+# paginate
+# plugins: [jekyll-paginate]
+# paginate: 6
+# port: 4001
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

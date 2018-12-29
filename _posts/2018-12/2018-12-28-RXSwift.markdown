@@ -3,6 +3,7 @@ layout: post
 title: "RXSwift函数响应式编程的讲解以及实现方式"
 data: 2018-12-28 
 categories: Maco
+desc: 函数式编程是种编程范式。它是通过构建函数操作数据序列...
 ---
 
 ![](../../../../assets/swift_img/rxswift.png)
