@@ -25,9 +25,9 @@ twitter_username: Macode
 github_username:  SuperHaiFeng
 weibo_username: "1804548547"
 weibo_nickname: "Super张子枫"
-description_footer: 来自Maco的技术专栏 
-pages: "2"
-header_pages: "2"
+# description_footer: 来自Maco的技术专栏 
+# pages: "2"
+# header_pages: "2"
 
 # Build settings
 markdown: kramdown
