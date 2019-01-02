@@ -3,6 +3,7 @@ layout: post
 title:  "Cookie的深入理解以及在开发中的作用"
 date:   2018-12-27 18:14:06 +0800
 categories: Maco
+desc: 早期Web开发面临的最大问题之一是如何管理状态。简言之，服务器端没有办法知道两个请求是否来自于同一个浏览器...
 ---
 #### cookie的起源
 
