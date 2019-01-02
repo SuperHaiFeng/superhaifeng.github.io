@@ -14,8 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Maco
+contact: 联系方式
 email: zhang_zhifang169@163.com
 email_name: 邮箱
+weibo_name: 微博
 name: Maco
 description: >- # this means to ignore newlines until "baseurl:"
    ©  2019 Maco  保留所有权利。
