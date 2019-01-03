@@ -15,9 +15,11 @@
               <!-- {{ site.title | escape }} -->
             <!-- {%- endif -%} -->
             <!-- </li> -->
+            {%- if site.weibo_username -%}
+              <li class="social-media-li"><a class="u-email" href="https://www.weibo.com/u/{{ site.weibo_username| cgi_escape | escape }}">{{ site.weibo_name }}</a>&nbsp;&nbsp;&nbsp;&nbsp;</li> 
+            {%- endif -%}
             {%- if site.email -%}
-            <li>{{ site.email_name }}：<a class="u-email" href="mailto:{{ site.email }}">{{site.email}}</a></li>
-            <li>{{ site.weibo_name }}：<a class="u-email" href="https://www.weibo.com/u/{{ site.weibo_username| cgi_escape | escape }}">{{site.weibo_nickname}}</a></li>
+              <li class="social-media-li"><a class="u-email" href="mailto:{{ site.email }}">{{ site.email_name }}</a></li>
             {%- endif -%}
         </ul>
       </div>
