@@ -59,7 +59,7 @@ Spec.source_files也需要填，对应我们组件都包括什么类型的文件
 
 在2014年的时候，cocoapods推出了trunk，以后trunk是提交到pod的唯一的方法，不接受对cocoapods specs repo的pull请求。所以在2014年之前，可以在cocoapods的github上把我们刚刚创建的spec文件上传到他们的github上，但是出了trunk后，我们省事了很多，直接上传就好了。
 
-#### 接下来我说一下怎么pod我们本地的组件到我们的项目中：
+#### **接下来我说一下怎么pod我们本地的组件到我们的项目中：**
 
 当然pods还可以pod本地库到项目中，同样在打包到项目之前也需要在本地创建好库名称，以及创建podspec配置文件，完成后需要在本地init个git文件，然后提交到git，完成后就可以pod到项目中了，需要注意的是在podfile文件中需要写明该库所在的具体地址，例如：pod 'RSA01', :path=> '/Users/zhangzhifang/RSA01’ ，执行pod install
 
@@ -67,9 +67,9 @@ Spec.source_files也需要填，对应我们组件都包括什么类型的文件
 
 ![](../../../../assets/cocoapods/cacoapodsDic.png)
 
-### 到这里我们基本上就算完成了，接下来我说一下我遇到的坑
+### **到这里我们基本上就算完成了，接下来我说一下我遇到的坑**
 
-#### 注意**⚠️**：
+#### **注意⚠️：**
 
 1、在创建git项目的时候，必须要选择license,gitignore，一般情况下选择MIT License，因为MIT是软件授权条款（源自麻省理工学院），选择它就认为你授权了你上传的项目对外开源，被授权人有权利使用、复制、修改、合并、出版发行、散布、再授权及贩售软件及软件的副本。不选择license,上传的时候会提示找不到license，到时候验证失败无法上传。当然也可以不选择MIT，选择别的授权条款，如果选择别的，在.podspec文件中配置spec.license的时候需要修改一下type值
 
