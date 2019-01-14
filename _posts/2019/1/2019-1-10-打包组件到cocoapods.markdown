@@ -11,7 +11,9 @@ desc: 我们在iOS开发中，相信所有小伙伴都经常使用到cocoapods�
 
 其实cocoapods也是使用github来进行代码管理的，所以我们也要传一份我们的代码到github上。
 
-一、首先我们需要有一个github账号，账号创建我就不说了，相信大家都会，接下来我们就创建我们的项目，首先我们需要填写我们的项目名称Repository name，然后选择license，gitignore，license是必选的，这个我后面后说，然后点击create repository按钮创建。这样我们的项目就创建好了，但是这还是一个空项目，所以我们要把它clone到我们本地，然后把我们的组件拷贝进去上传到github，代码上传我就不说了，就那一套命令。上传完成后我们要打tag，这个tag必须得打的，这个和我们后面配置spec的version是对应的。
+**一、在github创建一个项目**
+
+首先我们需要有一个github账号，账号创建我就不说了，相信大家都会，接下来我们就创建我们的项目，首先我们需要填写我们的项目名称Repository name，然后选择license，gitignore，license是必选的，这个我后面后说，然后点击create repository按钮创建。这样我们的项目就创建好了，但是这还是一个空项目，所以我们要把它clone到我们本地，然后把我们的组件拷贝进去上传到github，代码上传我就不说了，就那一套命令。上传完成后我们要打tag，这个tag必须得打的，这个和我们后面配置spec的version是对应的。
 
 `git tag -a v1.0.0`
 
@@ -21,7 +23,7 @@ desc: 我们在iOS开发中，相信所有小伙伴都经常使用到cocoapods�
 
 这就完成我们的第一步了，接下来我们上传cocoapods
 
-二、上传cocoapods
+**二、上传cocoapods**
 
 1、命令行cd到我们刚拉下来的工程根目录下，初始化一个Podspec文件，这个文件最好与项目名相同
 
