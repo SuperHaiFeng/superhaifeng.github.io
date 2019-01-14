@@ -61,15 +61,15 @@ Spec.source_files也需要填，对应我们组件都包括什么类型的文件
 
 在2014年的时候，cocoapods推出了trunk，以后trunk是提交到pod的唯一的方法，不接受对cocoapods specs repo的pull请求。所以在2014年之前，可以在cocoapods的github上把我们刚刚创建的spec文件上传到他们的github上，但是出了trunk后，我们省事了很多，直接上传就好了。
 
-#### **接下来我说一下怎么pod我们本地的组件到我们的项目中：**
+#### **那我们怎么pod我们本地的组件到我们的项目中：**
 
-当然pods还可以pod本地库到项目中，同样在打包到项目之前也需要在本地创建好库名称，以及创建podspec配置文件，完成后需要在本地init个git文件，然后提交到git，完成后就可以pod到项目中了，需要注意的是在podfile文件中需要写明该库所在的具体地址，例如：pod 'RSA01', :path=> '/Users/zhangzhifang/RSA01’ ，执行pod install
+同样在打包到项目之前也需要在本地创建好库名称，以及创建podspec配置文件，完成后需要在本地init个git文件，然后提交到git，完成后就可以pod到项目中了，需要注意的是在podfile文件中需要写明该库所在的具体地址，例如：pod 'RSA01', :path=> '/Users/zhangzhifang/RSA01’ ，执行pod install
 
 引入成功后在pods项目中会多一个Development pods文件，本地pod库放在该文件夹下
 
 ![](../../../../assets/cocoapods/cacoapodsDic.png)
 
-### **到这里我们基本上就算完成了，接下来我说一下我遇到的坑**
+### **到这里我们基本上就算完成了，接下来说一下我打包时遇到的坑**
 
 #### **注意⚠️：**
 
