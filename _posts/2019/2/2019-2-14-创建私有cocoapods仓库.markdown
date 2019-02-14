@@ -17,9 +17,11 @@ desc: 我之前写了一篇打包公有组件到cocoapods仓库，但是随着�
 
 回到终端，将私有版本库添加到本地repo中，repo就是repository的缩写
 
-`$ pod repo add repo https://gitee.com/macod/repo.git`
+```perl
+$ pod repo add repo https://gitee.com/macod/repo.git
+```
 
-在Finder目录中～/.cocoapods/repos，发现增加了一个repo存储库，如果没有说明失败了
+在Finder目录中`～/.cocoapods/repos`，发现增加了一个repo存储库，如果没有说明失败了
 
 ### 二、创建组件代码库
 
@@ -27,39 +29,47 @@ desc: 我之前写了一篇打包公有组件到cocoapods仓库，但是随着�
 
 将组组件代码仓库clone到本地，将打包的组件代码拷贝到项目中
 
-使用：`$ pod spec create 组件名`
+使用：
+
+```perl
+$ pod spec create 组件名
+```
 
 创建.podspec文件，然后修改podspec文件中的内容，类似如下：
 
-`Pod::Spec.new do |spec|`
+```perl
+Pod::Spec.new do |spec|
 
- `spec.name         = "SwipeView"`
+ spec.name         = "SwipeView"
 
- `spec.version      = "0.0.1"`
+ spec.version      = "0.0.1"
 
- `spec.summary      = "swipe view"`
+ spec.summary      = "swipe view"
 
- `spec.description  = "swipe view for iOS"`
+ spec.description  = "swipe view for iOS"
 
- `spec.homepage     = "https://gitee.com/macod/SwipeView"`
+ spec.homepage     = "https://gitee.com/macod/SwipeView"
 
- `spec.license      = { :type => "MIT", :file => "LICENSE" }`
+ spec.license      = { :type => "MIT", :file => "LICENSE" }
 
- `spec.author             = { "zhangzhifang" => "zhangzhifang@zuinianqing.com" }`
+ spec.author             = { "zhangzhifang" => "zhangzhifang@zuinianqing.com" }
 
- `spec.platform     = :ios, "7.0"`
+ spec.platform     = :ios, "7.0"
 
- `spec.source       = { :git => "https://gitee.com/macod/SwipeView.git", :tag => "#{spec.version}" }`
+ spec.source       = { :git => "https://gitee.com/macod/SwipeView.git", :tag => "#{spec.version}" }
 
- `spec.source_files  = "SwipeView/**/*.{h,m}"`
+ spec.source_files  = "SwipeView/**/*.{h,m}"
 
- `spec.requires_arc = true`
+ spec.requires_arc = true
 
-`end`
+end
+```
 
 然后验证内容修改仓库配置是否正确
 
-`$ pod lib lint`
+```perl
+$ pod lib lint
+```
 
 根据错误进行修改
 
@@ -69,7 +79,9 @@ desc: 我之前写了一篇打包公有组件到cocoapods仓库，但是随着�
 
 完成后将描述文件push到版本库
 
-`$ pod repo push repo 组件名.podspec —allow-warnings`
+```perl
+$ pod repo push repo 组件名.podspec —allow-warnings
+```
 
 这个过程其实就是:
 
@@ -83,71 +95,61 @@ desc: 我之前写了一篇打包公有组件到cocoapods仓库，但是随着�
 
 若是出现错误信息
 
-`[!] The repo `MyRepo` at `../.cocoapods/repos/MyRepo` is not clean`
+```
+[!] The repo MyRepo at ../.cocoapods/repos/MyRepo is not clean
+```
 
 更新下我们的版本库，
 
-`$ pod repo update MyRepo`
+```perl
+$ pod repo update MyRepo
+```
+
+
 
 ### 四、私有仓库的使用
 
 使用私有仓库需要再Podfile文件中添加指明你的版本库地址
 
-`source 'https://gitee.com/macod/repo.git'`
+```perl
+source 'https://gitee.com/macod/repo.git'
+```
 
 这里是版本库的地址
 
 若是还使用了公有的pod库，需要把公有库地址也写上
 
-`source ‘https://github.com/CocoaPods/Specs.git’`
+```perl
+source ‘https://github.com/CocoaPods/Specs.git’
+```
 
 Podfile类似这样:
 
-`source 'https://github.com/CocoaPods/Specs.git'
-source 'https://gitee.com/macod/repo.git'`
+```perl
+source 'https://github.com/CocoaPods/Specs.git
+source 'https://gitee.com/macod/repo.git'
 
-`target 'DevOCFramwork' do
-`
+target 'DevOCFramwork' do
 
-`pod “AFNetworking”
-`
+pod "AFNetworking"
+pod "SDWebImage"
+pod "YYModel"
+pod "FMDB"
+pod "SVProgressHUD"
+pod "pop"
+pod "Masonry"
+pod "SwipeView",    '~> 0.0.1'        #私有库
+pod "RSA",          '~> 0.0.2'        #私有库
 
-`pod “SDWebImage”
-`
+    target 'DevOCFramworkTests' do
+		inherit! :search_paths 
+	end
 
-`pod “YYModel”
-`
-
-`pod “FMDB”
-`
-
-`pod “SVProgressHUD”
-`
-
-`pod “pop”
-`
-
-`pod "Masonry"
-`
-
-`pod "SwipeView",    '~> 0.0.1'        #私有库
-`
-
-`pod "RSA",          '~> 0.0.2'        #私有库`
-
-​    `target 'DevOCFramworkTests' do`
-
-​	`inherit! :search_paths `	
-
-​    `end`
-
-  `target 'DevOCFramworkUITests' do`
-
-​	`inherit! :search_paths `	
-
-  `end`
-
-`end`
+    target 'DevOCFramworkUITests' do
+		inherit! :search_paths 	
+	end
+end
+```
 
 最后pod install就好了
 
