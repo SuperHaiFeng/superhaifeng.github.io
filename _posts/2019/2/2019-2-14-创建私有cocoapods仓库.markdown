@@ -2,7 +2,7 @@
 layout: post
 title: "创建私有cocoapods仓库"
 data: 2019-2-14
-desc: 我们之前写了一篇打包公有组件到cocoapods仓库，但是随着我们项目的逐渐增大，公司内部也有
+desc: 我之前写了一篇打包公有组件到cocoapods仓库，但是随着我们项目的逐渐增大，公司内部也有
 ---
 
 
