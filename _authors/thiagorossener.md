@@ -1,15 +1,15 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.png
-name: thiagorossener
-display_name: Thiago Rossener
+name: Maco
+display_name: Maco
 position: Chief Editor
 bio: Just a developer.
-github_username: thiagorossener
-facebook_username: thiagorossener
-twitter_username: thiagorossener
-instagram_username: thiagorossener
-linkedin_username: thiagorossener
-medium_username: thiagorossener
+github_username: SuperHaiFeng
+facebook_username: Swifal
+twitter_username: Macode520
+instagram_username: 
+linkedin_username: MacoZhang
+medium_username: 
 ---
 

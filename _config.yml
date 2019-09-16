@@ -1,6 +1,6 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
+name: Maco
+title: Maco's Blogs
 description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
 tags:
   - blog
@@ -8,19 +8,19 @@ tags:
   - jekyll
   - theme
   - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
+email: zhangzhifang1013@gmail.com
+disqus_username: Maco
 show_hero: true
 
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: SuperHaiFeng
+facebook_username: Swifal
+twitter_username: Macode520
+instagram_username: 
+linkedin_username: MacoZhang
+medium_username: 
 
 
 # Theme Settings
