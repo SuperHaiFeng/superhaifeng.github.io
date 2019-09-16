@@ -74,7 +74,7 @@
         {% endif %}
 
         {% include share.html %}
-        {% include author.html %}
+        <!--{% include author.html %}-->
         {% include comments.html %}
         {% include footer.html %}
 
@@ -117,7 +117,7 @@
             "dateCreated": "{{ page.date | date: '%Y-%m-%d/' }}",
             "datePublished": "{{ page.date | date: '%Y-%m-%d/' }}",
             "dateModified": "{{ page.date | date: '%Y-%m-%d/' }}",
-            /**"author": {
+            "author": {
                 "@type": "Person",
                 "name": "{{ author.display_name }}",
                 {% if author.photo %}
@@ -130,7 +130,7 @@
                 "sameAs": [
                     {{ author_urls | split: "," | join: "," }}
                 ]
-            },*/
+            },
             "publisher": {
                 "@type": "Organization",
                 "name": "{{ site.name }}",
