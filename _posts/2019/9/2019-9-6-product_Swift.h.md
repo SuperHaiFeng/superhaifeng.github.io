@@ -5,7 +5,7 @@ title: "OC与Swift混编之project-Swift.h"
 data: 2019-9-6
 desc: swift开源那么久了，大家肯定了解过并且使用过swift，使用oc开发那么久，项目比较大的情况下
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559825145/theme16_o0seet.jpg
+optimized_image: https://github.com/SuperHaiFeng/superhaifeng.github.io/blob/master/assets/swift_img/project-Swift.png
 ---
 
 swift开源那么久了，大家肯定了解过并且使用过swift，使用oc开发那么久，项目比较大的情况下，肯定不能一下全部换成swift，有的同学可能会先使用oc与swift混合编程，所以就涉及到混合编程的一些知识和文件的坑，我在这里简单介绍一下，有不足之处，可以查看下方联系我哦。
