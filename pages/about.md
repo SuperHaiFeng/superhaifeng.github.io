@@ -12,5 +12,5 @@ menu: true
 
 ------
 
-<center>嗨，我是张志方（@Maco），一名iOS开发者。\n欢迎大家访问我的博客和GitHub，互相学习。</center>
+<center>嗨，我是张志方（@Maco），一名iOS开发者。欢迎大家访问我的博客和GitHub，互相学习。</center>
 
