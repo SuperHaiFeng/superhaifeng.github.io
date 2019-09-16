@@ -58,7 +58,7 @@
 
         </section>
 
-        
+
 
         <!-- Add time bar only for pages without pagination -->
         {% if paginator.activated == nil and site.show_time_bar == true %}
@@ -102,7 +102,7 @@
         {% if author.linkedin_username %}
             {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
         {% endif %}
-
+<!--
         <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -149,6 +149,9 @@
             "keywords": [{{ page.tags | join: '","' | append: '"' | prepend: '"' }}]
         }
         </script>
+    -->
+
+        <!-- 设置disqus评论 -->
         <div id="disqus_thread"></div>
         <script>
 
