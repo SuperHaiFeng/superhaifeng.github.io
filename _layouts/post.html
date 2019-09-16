@@ -59,19 +59,16 @@
         </section>
 
 
-
-        <!-- Add time bar only for pages without pagination -->
+        <!--
         {% if paginator.activated == nil and site.show_time_bar == true %}
             {% include time-bar.html %}
             {% include recommendation.html %}
         {% endif %}
 
-        <!-- Show modal if the post is the last one -->
         {% if paginator.is_last and site.show_modal_on_finish_post %}
             {% include modal.html title="You made it!" subtitle="Why don't you try another?" %}
         {% endif %}
 
-        <!-- Show modal before user leaves the page -->
         {% if site.show_modal_on_exit %}
             {% include modal.html title="Don't go yet!" subtitle="You may also like..." closed=true showOnExit=true %}
         {% endif %}
@@ -102,6 +99,8 @@
         {% if author.linkedin_username %}
             {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
         {% endif %}
+    -->
+
 <!--
         <script type="application/ld+json">
         {
