@@ -1,76 +1,91 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Site Settings
+name: Jekflix
+title: Jekflix | A blog theme for Jekyll
+description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+email: youremail@xyz.com
+disqus_username: disqus_username
+show_hero: true
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Maco
-contact: 联系我
-email: zhang_zhifang169@163.com
-email_name: 邮箱       
-weibo_name: 微博
-name: Maco
-description: >- # this means to ignore newlines until "baseurl:"
-   ©  2019 Maco
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://superhaifeng.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Macode520
-github_username:  SuperHaiFeng
-weibo_username: "1804548547"
-facebook_username: Swifal
-linkedin_username: MacoZhang
-description_footer: 来自Maco的技术专栏 
-# Disqus settings（https://disqus.com/）
-disqus_username: disqus_u9fvyWN5Aw
-# pages: "2"
-# header_pages: "2"
-# gems: [jekyll-paginate]
-# paginate:2
-# paginate_path: "page:num"
+
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
+
+
+# Theme Settings
+themeColor: "#ff0a16"
+primaryDark: "#141414"
+accentDark: "#ffffff"
+lightGray: "#f2f2f2"
+texts: "#333333"
+
+
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+language: "en"
+
 
 # Build settings
 markdown: kramdown
-theme: minima
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# Plugins
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-paginate-content
 
-lsi : true  #为相关帖子创建索引
-# safe : true
-highlighter: rouge #荧光笔
-
-#评论插件
-disqus_shortname: Maco
-
-
-# statistic analysis 统计代码
-# 百度统计 id，将统计代码替换为自己的百度统计id，即
-# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
-# xxxxx字符串
-# baidu_tongji_id: 1cc1fc4b4b456bf7c99ce80aec5bf009
-# google_analytics_id: UA-72449510-4 # google 分析追踪id
-
-# paginate
-# plugins: [jekyll-paginate]
-# paginate: 6
-# port: 4001
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
