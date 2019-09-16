@@ -29,6 +29,8 @@ weibo_username: "1804548547"
 facebook_username: Swifal
 linkedin_username: MacoZhang
 description_footer: 来自Maco的技术专栏 
+# Disqus settings（https://disqus.com/）
+disqus_username: disqus_u9fvyWN5Aw
 # pages: "2"
 # header_pages: "2"
 # gems: [jekyll-paginate]
