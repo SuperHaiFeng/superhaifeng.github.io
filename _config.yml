@@ -1,11 +1,11 @@
 # Basic
-title: OneV's Den
-subtitle: 上善若水，人淡如菊
-welcome_message: <a href="https://objccn.io/products/">我组织的 ObjC 中国与 objc.io 合作发布了一系列 iOS/Swift 相关图书，欢迎访问了解更多</a>
-description: 嗨，我是王巍 (@onevcat)，一名 iOS 开发者。
-creator: <a href="https://onev.cat">@onevcat</a>
+title: Maco
+subtitle: 闭花羞月
+welcome_message: #<a href="https://objccn.io/products/">我组织的 ObjC 中国与 objc.io 合作发布了一系列 iOS/Swift 相关图书，欢迎访问了解更多</a>
+description: 嗨，我是张志方 (@Maco)，一名 iOS 开发者。
+creator: <a href="https://superhaifeng.github.io">@Maco</a>
 
-url: "https://onevcat.com"
+url: "https://superhaifeng.github.io"
 
 permalink: /:year/:month/:title/
 
@@ -20,9 +20,9 @@ blog_button:
     description: 访问博客
 
 nav:
-    - {title: 简历, description: 我的简历, url: '//onev.cat'}
-    - {title: 工具, description: 我所使用的 app 们, url: '/apps'}
-    - {title: 订阅, description: 邮件订阅本站, url: '//objccn.io/subscribe'}
+    #- {title: 简历, description: 我的简历, url: '//onev.cat'}
+    #- {title: 工具, description: 我所使用的 app 们, url: '/apps'}
+    #- {title: 订阅, description: 邮件订阅本站, url: '//objccn.io/subscribe'}
 
 # Pagination
 plugins: [jekyll-paginate]
@@ -35,11 +35,11 @@ comment:
     # duoshuo:
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    weibo: 1804548547
+    github: SuperHaiFeng
+    twitter: Macode520
+    #gplus: 107108267983477358170
+    mail: zhangzhifang1013@gmail.com
 
 # Google Analytics
 
