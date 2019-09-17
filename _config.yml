@@ -31,7 +31,7 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: onevcat
+    disqus: Maco
     # duoshuo:
 # Social
 social:
@@ -42,6 +42,7 @@ social:
     mail: onev@onevcat.com
 
 # Google Analytics
-ga:
-    id: UA-25719337-1
-    host: onevcat.com
+
+#ga:
+ #   id: UA-25719337-1
+  #  host: onevcat.com
