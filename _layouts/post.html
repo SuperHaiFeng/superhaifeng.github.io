@@ -75,7 +75,7 @@
 
         {% include share.html %}
         <!--{% include author.html %}-->
-        <!--{% include comments.html %}-->
+        {% include comments.html %}
         {% include footer.html %}
 
         {% assign author = site.authors | where: "name", post.author | first %}
