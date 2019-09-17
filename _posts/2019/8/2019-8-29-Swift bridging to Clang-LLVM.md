@@ -5,7 +5,8 @@ title: "从Swift桥接文件到Clang-LLVM"
 data: 2019-8-29
 subtitle: GNU编译器套件（GNU Compiler Collection）包括C、C++、Objective-C、Fortran
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825145/theme16_o0seet.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559825145/theme16_o0seet.jpgdescription: GNU编译器套件（GNU Compiler Collection）包括C、C++、Objective-C、Fortran
+optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559825145/theme16_o0seet.jpg
+description: GNU编译器套件（GNU Compiler Collection）包括C、C++、Objective-C、Fortran
 category: swift
 tags:
    - swift
