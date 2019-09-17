@@ -3,6 +3,17 @@ layout: post
 title: "Bridging和Unmanaged"
 data: 2019-8-28
 desc: 有经验的读者看到这章的标题就能知道我们要谈论的是 Core Foundation。在 Swift 中对于 Core Foundation 
+subtitle: 
+image:https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/master/assets/TitleImg/foundation.jpg
+optimized_image:https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/master/assets/TitleImg/foundation.jpg
+description: 这篇要谈论的是 Core Foundation
+category: foundation
+tags:
+   - Cocoa
+   - Foundation
+   - ARC
+author: Maco
+paginate: true
 ---
 
 
