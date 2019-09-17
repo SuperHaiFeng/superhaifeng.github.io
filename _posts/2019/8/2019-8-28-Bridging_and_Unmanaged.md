@@ -3,8 +3,8 @@ layout: post
 title: "Bridging和Unmanaged"
 data: 2019-8-28
 subtitle: 
-image:https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/master/assets/TitleImg/foundation.jpg
-optimized_image:https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/master/assets/TitleImg/foundation.jpg
+image: https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/master/assets/TitleImg/foundation.jpg
+optimized_image: https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/master/assets/TitleImg/foundation.jpg
 description: 这篇要谈论的是 Core Foundation
 category: foundation
 tags:
