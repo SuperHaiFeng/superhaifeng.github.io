@@ -49,8 +49,9 @@ paginate: true
 - **apple** 的 `Clang/Swift - LLVM` 编译器架构
   ![](../../../../assets/Clang-LLVM/Swift-LLVM.png)
 
-
   其中优化器部分(Common Optimizer)是共享的。而对于每一种语言都有其前端部分，假如新有一门语言，只需要实现该语言的前端模块；如果新出一台设备，它的架构不同，那么也只需要单独完成其后端模块即可。改动非常小，不会做重复的工作。
+
+--page-break--
 
   下面详解：
   ![](../../../../assets/Clang-LLVM/Swift-LLVM2.png)
