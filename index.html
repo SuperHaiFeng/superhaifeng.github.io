@@ -22,13 +22,13 @@ layout: main
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
-                <time datetime="{{ featured.date | date_to_xmlschema }}" class="date">{{ featured.date | date: "%m.%d.%Y" }}</time>
+                <time datetime="{{ featured.date | date_to_xmlschema }}" class="date">{{ featured.date | date: "%Y.%d.%m" }}</time>
                 <h1 class="title">{{ featured.title }}</h1>
                 <p class="description">{{ featured.subtitle }}</p>
                 <div class="buttons">
                     <a href="{{ featured.url }}" role="button" class="button">
                         <img src="/assets/img/icons/read.svg">
-                        <span>Read Now</span>
+                        <span>阅读全文</span>
                     </a>
                 </div>
             </div>
