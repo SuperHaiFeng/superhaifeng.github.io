@@ -1,5 +1,4 @@
-source 'http://rubygems.org'
-
-gem 'github-pages'
-gem 'html-proofer'
-gem 'jekyll-admin'
+source 'https://rubygems.org'
+gem 'jekyll'
+gem 'redcarpet'
+gem 'jekyll-paginate'
