@@ -45,6 +45,6 @@ social:
 
 # Google Analytics
 
-#ga:
- #   id: UA-25719337-1
-  #  host: onevcat.com
+ga:
+   id: UA-148217509-1
+   host: superhaifeng.github.io
