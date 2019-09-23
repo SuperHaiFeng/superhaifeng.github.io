@@ -113,7 +113,6 @@ desc: 查看、添加、提交、删除、找回，重置修改文件
  - `git remote set-url origin git@ github.com:robbin/robbin_site.git    -------->`
    `设置远程仓库地址(用于修改远程仓库地址) git remote rm <repository>    --------> 删除远程仓库`
 
-
 #### 创建远程仓库
 
  - `git clone --bare robbin_site robbin_site.git    --------> 用带版本的项目创建纯版本仓库`
@@ -128,3 +127,39 @@ desc: 查看、添加、提交、删除、找回，重置修改文件
  - `也可以命令设置跟踪远程库和本地库`
  - `git branch --set-upstream master origin/master`
  - `git branch --set-upstream develop origin/develop`
+
+#### 自定义命令行
+
+如果觉得这些命令行太长，想要简化一下命令格式，如下操作：
+
+cd到终端根目录，执行
+
+```
+vi ~/.gitconfig
+```
+
+在文件最下面加上如下代码，也可以自己自定义
+
+```
+[alias]
+
+  a = add
+  b = branch
+  c = commit
+  d = diff
+  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset | %C(bold)%an' --abbrev-commit --date=relative
+  r = reset
+  aa = add .
+  ba = branch -a
+  ca = commit -a
+  cc = commit -a -m
+  cl = clone
+  cm = commit -m
+  co = checkout
+  cp = cherry-pick
+  nb = checkout -b
+  pl = pull
+  ps = push origin master
+  st = status
+```
+
