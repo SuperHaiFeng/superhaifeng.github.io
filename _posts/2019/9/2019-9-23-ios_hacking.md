@@ -2,8 +2,8 @@
 
 layout: post
 title: "iOS逆向解密"
-data: 2019-9-6
-desc: swift开源那么久了，大家肯定了解过并且使用过swift，使用oc开发那么久，项目比较大的情况下
+data: 2019-9-23
+desc: 学习和了解逆向工程，可以帮助我们分析竞品和自己喜欢的APP的开发架构和某些功能的大体实现思路
 image: https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/master/assets/TitleImg/oc-swift-title.png
 optimized_image: 
 description: 学习和了解逆向工程，可以帮助我们分析竞品和自己喜欢的APP的开发架构和某些功能的大体实现思路
