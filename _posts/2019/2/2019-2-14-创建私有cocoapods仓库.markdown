@@ -161,6 +161,11 @@ end
 
 3、根据SwipeView.podspec文件中描述的源码地址下载并整合到项目中
 
+{% highlight html %}
+<iframe src="https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/master/assets/TitleImg/oc-swift-title.png" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+{% endhighlight %}
+
 ### 注意⚠️
 
 如果我们的私有库中组件名和公有库组件名相同了，在Podfile中pod后面不说明版本号的话，会默认导入公有库中的组件，所以我们创建组件的时候最好和公有库中的组件不要重名
