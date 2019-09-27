@@ -48,6 +48,24 @@ swift开源那么久了，大家肯定了解过并且使用过swift，使用oc�
 
 ![](../../../../assets/swift_img/enum.png)
 
+当我们在OC文件中使用KVO对swift文件进行监听，在被监听的属性或者对象需要使用@dynamic进行修饰，否则当属性值改变的时候，是监听不到的。
+
+```swift
+@objc dynamic var name: String?
+    
+    @objc(test:)
+    func aaaaaa(text: String) {
+        let string = CouponResult.Result(test: text)
+        switch string {
+        case .Result(let str):
+            print(str)
+            break
+        }
+    }
+```
+
+在上面的代码中，我们还可以使用@objc()括号中定义方法名，来让区分OC和Swift调用不同的方法名，方法体是不变的。
+
 ### 四、oc项目导入#import "project-Swift.h"报错
 
 如果我们项目名中包含.符号，在我们引入project-Swift.h文件时会报错，比如我们的工程名叫oc.swift，只要在Build Setting->Packaging->Product Bundle Name名字为oc_swift，然后引入的时候写#import "oc_swift-Swift.h"就不会报错了，因为project-Swift.h本质上是ProductBundleName-Swift.h。
