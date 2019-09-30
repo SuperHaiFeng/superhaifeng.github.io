@@ -16,6 +16,8 @@ author: Maco
 paginate: true
 ---
 
+![](../../../../assets/TitleImg/OC-Swift.png)
+
 swift开源那么久了，大家肯定了解过并且使用过swift，使用oc开发那么久，项目比较大的情况下，肯定不能一下全部换成swift，有的同学可能会先使用oc与swift混合编程，所以就涉及到混合编程的一些知识和文件的坑，我在这里简单介绍一下，有不足之处，可以查看下方联系我哦。
 
 ### 一、桥接文件project-Bridging-Header.h
