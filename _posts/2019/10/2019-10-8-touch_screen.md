@@ -2,7 +2,7 @@
 
 layout: post
 title: "手机触摸屏实现原理"
-data: 2019-10-08
+data: 2019-10-8
 desc: 这篇文章旨在介绍我们常用的智能手机触摸屏的实现原理
 image: https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/master/assets/TitleImg/oc-swift-title.png
 optimized_image: 
