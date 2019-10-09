@@ -2,12 +2,18 @@
 
 layout: post
 title: "手机触摸屏实现原理"
-data: 2019-9-30
+data: 2019-10-8
 desc: 这篇文章旨在介绍我们常用的智能手机触摸屏的实现原理
 image: https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/master/assets/TitleImg/oc-swift-title.png
 optimized_image: 
 description: 这篇文章旨在介绍我们常用的智能手机触摸屏的实现原理
-category: touch-screen
+category: touch
+tags:
+   - Swift
+   - Objective-C
+   - 桥接文件
+author: Maco
+paginate: true
 
 ---
 
