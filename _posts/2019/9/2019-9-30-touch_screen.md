@@ -7,7 +7,7 @@ desc: 这篇文章旨在介绍我们常用的智能手机触摸屏的实现原�
 image: https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/master/assets/TitleImg/oc-swift-title.png
 optimized_image: 
 description:这篇文章旨在介绍我们常用的智能手机触摸屏的实现原理
-Category:touch-screen
+category:touch-screen
 
 ---
 
