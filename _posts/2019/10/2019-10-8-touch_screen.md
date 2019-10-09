@@ -8,12 +8,6 @@ image: https://raw.githubusercontent.com/SuperHaiFeng/superhaifeng.github.io/mas
 optimized_image: 
 description: 这篇文章旨在介绍我们常用的智能手机触摸屏的实现原理
 category: touch
-tags:
-   - Swift
-   - Objective-C
-   - 桥接文件
-author: Maco
-paginate: true
 
 ---
 
@@ -33,7 +27,7 @@ paginate: true
 
 - **直流电**
   直流（DC）原来的英文名称是galvanic current，也称原义是指[电荷](https://zh.wikipedia.org/wiki/%E9%9B%BB%E8%8D%B7)的单向流动，一般是由像[电池](https://zh.wikipedia.org/wiki/%E9%9B%BB%E6%B1%A0)、[太阳能电池](https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%98%B3%E8%83%BD%E7%94%B5%E6%B1%A0)等设备产生。直流电流可以在[导体](https://zh.wikipedia.org/wiki/%E5%B0%8E%E9%AB%94)（例如电线）中流动，也可以在[半导体](https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%B0%8E%E9%AB%94)、[绝缘体](https://zh.wikipedia.org/wiki/%E7%B5%95%E7%B7%A3%E9%AB%94)中流动，甚至在真空也可以以[离子束](https://zh.wikipedia.org/wiki/%E9%99%B0%E6%A5%B5%E5%B0%84%E7%B7%9A)的方式流动。在直流电中，电子以固定的方向流动。
-  ![](../../../../assets/TitleImg/DC.png)
+  ![](../../../../../../)
   第一个商业化的电力传输由[汤玛斯·爱迪生](https://zh.wikipedia.org/wiki/%E6%B9%AF%E7%91%AA%E6%96%AF%C2%B7%E6%84%9B%E8%BF%AA%E7%94%9F)在十九世纪后期开发，使用110伏特的直流电。然而由于在传输和电压转换的优势差异，今天几乎所有的电力分配为[交流电](https://zh.wikipedia.org/wiki/%E4%BA%A4%E6%B5%81%E7%94%B5)。在20世纪50年代中期，曾经发展过[超高压直流电系统](https://zh.wikipedia.org/wiki/HVDC)，现在该技术是在远程及水下电力传输上，除了高压交流电以外的另一种选项然而并不常见。但是特种应用要求上，如一些[第三轨](https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E8%BB%8C)或[架空电车线](https://zh.wikipedia.org/wiki/%E6%9E%B6%E7%A9%BA%E9%9B%BB%E8%BB%8A%E7%B7%9A)的[铁路](https://zh.wikipedia.org/wiki/%E9%93%81%E8%B7%AF)电力系统还是用直流电，交流电被分配到一个[变电站](https://zh.wikipedia.org/wiki/%E5%8F%98%E7%94%B5%E7%AB%99)利用一个整流器转换为直流电。
 
   ![](../../../../assets/TitleImg/Brush_central_power_station_dynamos_New_York_1881.jpg)
@@ -52,7 +46,6 @@ paginate: true
   1891年后，多相交流发电机被用来供应电流，此后的交流发电机的交流电流频率通常设计在16赫兹至100赫兹间，搭配[弧光灯](https://zh.wikipedia.org/wiki/%E5%BC%A7%E5%85%89%E7%81%AF)、[白炽灯](https://zh.wikipedia.org/wiki/%E7%99%BD%E7%82%BD%E7%81%AF)或[电动机](https://zh.wikipedia.org/wiki/%E7%94%B5%E5%8A%A8%E6%9C%BA)使用。
 
   根据电磁感应定律，当导体周围的磁场发生变化，感应电流在导体中产生。通常情况下，旋转磁体称为[转子](https://zh.wikipedia.org/wiki/%E8%BD%AC%E5%AD%90)，导体绕在铁芯上的线圈内的固定组，称为[定子](https://zh.wikipedia.org/wiki/%E5%AE%9A%E5%AD%90)，当其跨越磁场时，便产生电流。产生交流电的基本机械称为[交流发电机](https://zh.wikipedia.org/wiki/%E4%BA%A4%E6%B5%81%E7%99%BC%E9%9B%BB%E6%A9%9F)。
-
 
   我们国家生活用电使用的是220V的交流电，但是其他国家不一定，比如美国一般使用的是110V，朝鲜、日本等民用是100V，澳大利亚等一些国家使用240V，所以每个国家有每个国家的制定标准，所以生产出来的电器产品也是根据国家的标准来制定的。
 
