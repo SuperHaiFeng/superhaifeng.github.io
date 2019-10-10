@@ -13,6 +13,8 @@ category: touch
 
 ![](../../../../assets/TitleImg/mac.png)
 
+[TOC]
+
 对于屏幕，在生活中随处可见，电脑、电视、手机等等，我们今天要介绍一下平时用的手机触摸屏或者电脑触摸屏的基本原理。
 
 触摸屏的主要三大种类有电阻技术触摸屏、表面声波技术触摸屏、电容技术触摸屏，没一类触摸屏都有自己的优缺点，比如我们使用的Kindle，之前的Mobile phone等基本都是使用的电阻技术触摸屏，我们现在使用的大多数智能手机，触摸屏电脑，iPad等基本都是使用的电容技术触摸屏，银行自助设备、触摸一体机等基本都是使用的表面声波技术触摸屏，今天我们主要介绍电容技术触摸屏。
@@ -29,11 +31,17 @@ category: touch
 
 直流（DC）原来的英文名称是galvanic current，也称原义是指[电荷](https://zh.wikipedia.org/wiki/%E9%9B%BB%E8%8D%B7)的单向流动，一般是由像[电池](https://zh.wikipedia.org/wiki/%E9%9B%BB%E6%B1%A0)、[太阳能电池](https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%98%B3%E8%83%BD%E7%94%B5%E6%B1%A0)等设备产生。直流电流可以在[导体](https://zh.wikipedia.org/wiki/%E5%B0%8E%E9%AB%94)（例如电线）中流动，也可以在[半导体](https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%B0%8E%E9%AB%94)、[绝缘体](https://zh.wikipedia.org/wiki/%E7%B5%95%E7%B7%A3%E9%AB%94)中流动，甚至在真空也可以以[离子束](https://zh.wikipedia.org/wiki/%E9%99%B0%E6%A5%B5%E5%B0%84%E7%B7%9A)的方式流动。在直流电中，电子以固定的方向流动。
 ![](../../../../assets/touch-screen/DC.png)
-第一个商业化的电力传输由[汤玛斯·爱迪生](https://zh.wikipedia.org/wiki/%E6%B9%AF%E7%91%AA%E6%96%AF%C2%B7%E6%84%9B%E8%BF%AA%E7%94%9F)在十九世纪后期开发，使用110伏特的直流电。然而由于在传输和电压转换的优势差异，今天几乎所有的电力分配为[交流电](https://zh.wikipedia.org/wiki/%E4%BA%A4%E6%B5%81%E7%94%B5)。在20世纪50年代中期，曾经发展过[超高压直流电系统](https://zh.wikipedia.org/wiki/HVDC)，现在该技术是在远程及水下电力传输上，除了高压交流电以外的另一种选项然而并不常见。但是特种应用要求上，如一些[第三轨](https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E8%BB%8C)或[架空电车线](https://zh.wikipedia.org/wiki/%E6%9E%B6%E7%A9%BA%E9%9B%BB%E8%BB%8A%E7%B7%9A)的[铁路](https://zh.wikipedia.org/wiki/%E9%93%81%E8%B7%AF)电力系统还是用直流电，交流电被分配到一个[变电站](https://zh.wikipedia.org/wiki/%E5%8F%98%E7%94%B5%E7%AB%99)利用一个整流器转换为直流电。
+第一个商业化的电力传输由[汤玛斯·爱迪生](https://zh.wikipedia.org/wiki/%E6%B9%AF%E7%91%AA%E6%96%AF%C2%B7%E6%84%9B%E8%BF%AA%E7%94%9F)在十九世纪后期开发，使用110伏特的直流电。然而由于在传输和电压转换的优势差异，今天几乎所有的电力分配为[交流电](https://zh.wikipedia.org/wiki/%E4%BA%A4%E6%B5%81%E7%94%B5)。在20世纪50年代中期，曾经发展过[超高压直流电系统](https://zh.wikipedia.org/wiki/HVDC)，现在该技术是在远程及水下电力传输上，除了高压交流电以外的另一种
+
+[选项然而并不]: 
+
+常见。但是特种应用要求上，如一些[第三轨](https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E8%BB%8C)或[架空电车线](https://zh.wikipedia.org/wiki/%E6%9E%B6%E7%A9%BA%E9%9B%BB%E8%BB%8A%E7%B7%9A)的[铁路](https://zh.wikipedia.org/wiki/%E9%93%81%E8%B7%AF)电力系统还是用直流电，交流电被分配到一个[变电站](https://zh.wikipedia.org/wiki/%E5%8F%98%E7%94%B5%E7%AB%99)利用一个整流器转换为直流电。
 
 ![](../../../../assets/touch-screen/Brush_central_power_station_dynamos_New_York_1881.jpg)
 
-<center><font color=gray>1880年的爱迪生直流发电机，后来连接了一个3.2公里长的输电线</font></center>
+<center>1880年的爱迪生直流发电机，后来连接了一个3.2公里长的输电线</center>
+
+
 
 **交流电**
 交流（AC）原义是指[电荷](https://zh.wikipedia.org/wiki/%E9%9B%BB%E8%8D%B7)的运动会周期性的变换方向，和直流不同，直流电流的电荷只会单方向流动。一般商业、家用及工业用电多半是交流电，例如一般[插座](https://zh.wikipedia.org/wiki/%E6%8F%92%E5%BA%A7)提供的电就是交流电。最常见的交流电波形是[正弦波](https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%BC%A6%E6%B3%A2)，但在特殊应用中也会出现其他的波形，像[三角波](https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E6%B3%A2)或[方波](https://zh.wikipedia.org/wiki/%E6%96%B9%E6%B3%A2)。像[调幅广播](https://zh.wikipedia.org/wiki/%E8%AA%BF%E5%B9%85%E5%BB%A3%E6%92%AD)及[调频广播](https://zh.wikipedia.org/wiki/%E8%B0%83%E9%A2%91%E5%B9%BF%E6%92%AD)的讯号也是交流的例子之一，其目的是在利用[调变](https://zh.wikipedia.org/wiki/%E8%AA%BF%E8%AE%8A)技术，在交流讯号中加入要传递的讯号后传递，而接收端可以再还原为原始的讯号。
@@ -56,7 +64,7 @@ category: touch
 
 ### 二、电容器
 
-**电容器**（capacitor）是将[电能](https://zh.wikipedia.org/wiki/%E9%9B%BB%E8%83%BD)储存在[电场](https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%A0%B4)中的[被动](https://zh.wikipedia.org/wiki/%E8%A2%AB%E5%8B%95%E5%85%83%E4%BB%B6)[电子元件](https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%AD%90%E5%85%83%E4%BB%B6)。电容器的储能特性可以用[电容](https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%AE%B9)表示。在[电路](https://zh.wikipedia.org/wiki/%E9%9B%BB%E8%B7%AF)中邻近的[导体](https://zh.wikipedia.org/wiki/%E5%B0%8E%E9%AB%94)之间即存在电容，而电容器是为了增加电路中的[电容量](https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%AE%B9%E9%87%8F)而加入的电子元件。
+电容器（capacitor）是将[电能](https://zh.wikipedia.org/wiki/%E9%9B%BB%E8%83%BD)储存在[电场](https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%A0%B4)中的[被动](https://zh.wikipedia.org/wiki/%E8%A2%AB%E5%8B%95%E5%85%83%E4%BB%B6)[电子元件](https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%AD%90%E5%85%83%E4%BB%B6)。电容器的储能特性可以用[电容](https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%AE%B9)表示。在[电路](https://zh.wikipedia.org/wiki/%E9%9B%BB%E8%B7%AF)中邻近的[导体](https://zh.wikipedia.org/wiki/%E5%B0%8E%E9%AB%94)之间即存在电容，而电容器是为了增加电路中的[电容量](https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%AE%B9%E9%87%8F)而加入的电子元件。
 
 历史上第一个有留下记录的电容器由[克拉斯特主教](https://zh.wikipedia.org/wiki/%E5%85%8B%E6%8B%89%E6%96%AF%E7%89%B9%E4%B8%BB%E6%95%99)在1745年10月所发明，是一个内外层均镀有金属膜的玻璃瓶，玻璃瓶内有一金属杆，一端和内层的金属膜连结，另一端则连结一金属球体。借由在二层金属膜中利用玻璃作为绝缘的方式，克拉斯特主教让[电荷密度](https://zh.wikipedia.org/wiki/%E9%9B%BB%E8%8D%B7%E5%AF%86%E5%BA%A6)出现明显的提升。
 
@@ -97,6 +105,7 @@ category: touch
 其实之前别的公司就出过一些电容笔，专门来操作电容屏的，比如微软出的surface pen，但是这些电容笔需要手拿着来操作屏幕，那么apple pencil不需要手拿也可以操作屏幕，我们来看看它的基本原理。  
 
 **触控定位精度**
+
 Apple Pencil其实并不是“电容笔”，是主动在笔尖发射电磁波的。iPad端的支持Pencil的触控芯片也是特殊定制的，在扫描普通的触控信号的同时，接受到Pencil的特殊频段，这个可以拿频谱探棒扫描到的。
 电容触摸屏对于直流电来说是绝缘的，但是对于交流信号是可以理解是微弱导电的。
 \- 更惊人的是，笔尖不是发射一个固定频段的哦，而是同时发射多个频段的信号的哦，利用交叠扫描和数学分析提高定位精度。
@@ -105,6 +114,7 @@ Apple Pencil其实并不是“电容笔”，是主动在笔尖发射电磁波�
 如果你考虑到Apple一直在触控密度和扫描频率都是坚持高业界一个档次的，Apple Pencil还有240Hz扫描频率
 
 **传感器**
+
 笔尖是有压力传感器感受用力的，而iPad屏幕是不支持force touch的。 
 另外Apple Pencil里还有9轴陀螺仪，用来和iPad的陀螺仪的差值计算笔尖的倾斜角度，实现毛笔的笔触效果。。
 \- 更惊人的是，如果看过拆解，里面不是1颗陀螺仪哦，而是在不同位置装了2颗。可能外行同学不太明白2颗有什么惊人的，如果有做硬件设计或者硬件产品经理同学可以想一下2颗陀螺仪能用来做什么。
@@ -120,6 +130,8 @@ Apple 连你倒立拿着笔写字的情况都考虑了，还可以实现类似�
 是不是感觉apple pencil技术很牛逼，如果想看apple pencil的拆解过程，可以到[这里](https://zh.ifixit.com/)
 
 思考问题：如果人站在一个绝缘的地毯上去触摸生活中的火线，会触电吗？？
+
+------
 
 参考资料
 
