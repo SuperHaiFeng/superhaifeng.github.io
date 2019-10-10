@@ -13,8 +13,6 @@ category: touch
 
 ![](../../../../assets/TitleImg/mac.png)
 
-[TOC]
-
 对于屏幕，在生活中随处可见，电脑、电视、手机等等，我们今天要介绍一下平时用的手机触摸屏或者电脑触摸屏的基本原理。
 
 触摸屏的主要三大种类有电阻技术触摸屏、表面声波技术触摸屏、电容技术触摸屏，没一类触摸屏都有自己的优缺点，比如我们使用的Kindle，之前的Mobile phone等基本都是使用的电阻技术触摸屏，我们现在使用的大多数智能手机，触摸屏电脑，iPad等基本都是使用的电容技术触摸屏，银行自助设备、触摸一体机等基本都是使用的表面声波技术触摸屏，今天我们主要介绍电容技术触摸屏。
@@ -44,6 +42,7 @@ category: touch
 
 
 **交流电**
+
 交流（AC）原义是指[电荷](https://zh.wikipedia.org/wiki/%E9%9B%BB%E8%8D%B7)的运动会周期性的变换方向，和直流不同，直流电流的电荷只会单方向流动。一般商业、家用及工业用电多半是交流电，例如一般[插座](https://zh.wikipedia.org/wiki/%E6%8F%92%E5%BA%A7)提供的电就是交流电。最常见的交流电波形是[正弦波](https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%BC%A6%E6%B3%A2)，但在特殊应用中也会出现其他的波形，像[三角波](https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E6%B3%A2)或[方波](https://zh.wikipedia.org/wiki/%E6%96%B9%E6%B3%A2)。像[调幅广播](https://zh.wikipedia.org/wiki/%E8%AA%BF%E5%B9%85%E5%BB%A3%E6%92%AD)及[调频广播](https://zh.wikipedia.org/wiki/%E8%B0%83%E9%A2%91%E5%B9%BF%E6%92%AD)的讯号也是交流的例子之一，其目的是在利用[调变](https://zh.wikipedia.org/wiki/%E8%AA%BF%E8%AE%8A)技术，在交流讯号中加入要传递的讯号后传递，而接收端可以再还原为原始的讯号。
 
 当发现了[电磁感应](https://zh.wikipedia.org/wiki/%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94)后，产生交流电流的方法就被知晓。早期的成品由英国人[麦可·法拉第](https://zh.wikipedia.org/wiki/%E9%BA%A6%E5%8F%AF%C2%B7%E6%B3%95%E6%8B%89%E7%AC%AC)（Michael Faraday）与法国人[波利特·皮克西](https://zh.wikipedia.org/w/index.php?title=%E6%B3%A2%E5%88%A9%E7%89%B9%C2%B7%E7%9A%AE%E5%85%8B%E8%A5%BF&action=edit&redlink=1)（Hippolyte Pixii）等人开发出来。
@@ -135,12 +134,12 @@ Apple 连你倒立拿着笔写字的情况都考虑了，还可以实现类似�
 
 参考资料
 
-[电容式触摸屏](https://baike.baidu.com/item/%E7%94%B5%E5%AE%B9%E5%BC%8F%E8%A7%A6%E6%91%B8%E5%B1%8F/7533199?fromtitle=%E7%94%B5%E5%AE%B9%E5%B1%8F&fromid=4907602)
+[[电容式触摸屏]](https://baike.baidu.com/item/%E7%94%B5%E5%AE%B9%E5%BC%8F%E8%A7%A6%E6%91%B8%E5%B1%8F/7533199?fromtitle=%E7%94%B5%E5%AE%B9%E5%B1%8F&fromid=4907602)
 
-触摸屏原理及技术发展简介
+[触摸屏原理及技术发展简介]
 
-[Apple pencil的原理是什么](https://www.zhihu.com/question/67483519)
+[[Apple pencil的原理是什么]](https://www.zhihu.com/question/67483519)
 
-[电容器](https://zh.wikipedia.org/wiki/%E7%94%B5%E5%AE%B9%E5%99%A8)
+[[电容器]](https://zh.wikipedia.org/wiki/%E7%94%B5%E5%AE%B9%E5%99%A8)
 
-触摸屏技术浅谈   <font color=gray>解放军理工大学理学院  210016</font>
+[触摸屏技术浅谈]   <span><font color=gray>解放军理工大学理学院  210016</font></span>
