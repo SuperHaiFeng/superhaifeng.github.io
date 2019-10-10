@@ -16,6 +16,8 @@ author: Maco
 paginate: true
 ---
 
+![](../../../../assets/TitleImg/OC-Swift.png)
+
 swift开源那么久了，大家肯定了解过并且使用过swift，使用oc开发那么久，项目比较大的情况下，肯定不能一下全部换成swift，有的同学可能会先使用oc与swift混合编程，所以就涉及到混合编程的一些知识和文件的坑，我在这里简单介绍一下，有不足之处，可以查看下方联系我哦。
 
 ### 一、桥接文件project-Bridging-Header.h
@@ -47,6 +49,24 @@ swift开源那么久了，大家肯定了解过并且使用过swift，使用oc�
 当然如果使用枚举，在project-Swift.h同样会存在oc的代码
 
 ![](../../../../assets/swift_img/enum.png)
+
+当我们在OC文件中使用KVO对swift文件进行监听，在被监听的属性或者对象需要使用@dynamic进行修饰，否则当属性值改变的时候，是监听不到的。
+
+```swift
+@objc dynamic var name: String?
+    
+    @objc(test:)
+    func aaaaaa(text: String) {
+        let string = CouponResult.Result(test: text)
+        switch string {
+        case .Result(let str):
+            print(str)
+            break
+        }
+    }
+```
+
+在上面的代码中，我们还可以使用@objc()括号中定义方法名，来让区分OC和Swift调用不同的方法名，方法体是不变的。
 
 ### 四、oc项目导入#import "project-Swift.h"报错
 
