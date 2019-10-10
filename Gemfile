@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
+
+gem 'rouge'
 gem 'jekyll'
-gem 'redcarpet'
 gem 'jekyll-paginate'
-gem 'github-pages'
+gem 'jekyll-paginate-content'
+gem 'json'
