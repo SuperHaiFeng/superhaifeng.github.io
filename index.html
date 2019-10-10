@@ -9,9 +9,9 @@ layout: default
     <li>
       <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
       {% if post.optimized_image %}
-          <img width="100" src="/assets/TitleImg/mac.png" class="preload">
+          <img width="100%" src="{{ post.optimized_image }}" class="preload">
       {% elsif post.image %}
-          <img width="100" src="{{ post.image }}" class="preload">
+          <img width="100%" src="{{ post.image }}" class="preload">
       {% endif %}
       <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 130 }}&hellip;</p>
       <div class="post-list__meta"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{ post.tags }}</span><a class="btn-border-small" href={{ post.url }}>继续阅读</a></div>
