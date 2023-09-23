@@ -14,8 +14,8 @@
   -webkit-font-smoothing: antialiased;
 
   &:hover {
-    color: darken($red);
-    border-color: darken($red);
+    color: darken($red, 100%);
+    border-color: darken($red, 100%);
   }
 
 }
