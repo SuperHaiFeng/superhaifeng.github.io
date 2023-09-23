@@ -31,9 +31,11 @@
 
     a {
       color: $gray-darkest;
+      text-decoration: none;
 
       &:hover {
         color: $hover-color;
+        text-decoration: underline;
       }
     }
   }
