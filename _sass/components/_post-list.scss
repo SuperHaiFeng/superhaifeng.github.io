@@ -36,6 +36,7 @@
       &:hover {
         color: $hover-color;
         text-decoration: underline;
+        text-underline-offset: 0.1em;
       }
     }
   }
