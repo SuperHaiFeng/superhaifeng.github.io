@@ -1,0 +1,52 @@
+---
+layout: post
+title: "golang和gin框架安装和使用"
+date: 2019-11-11
+desc: golang和gin框架安装和使用
+image: 
+optimized_image: 
+description: golang和gin框架安装和使用
+category: golang ang gin
+
+---
+
+**一、golang和gin框架安装和使用**
+
+`mkdir api && cd api`：创建并进入api文件夹
+
+`go env -w GO111MODULE=on`：开启Go modules
+
+`go env -w GOPROXY=https://goproxy.cn,direct`：设置 GOPROXY 代理，也可以把GOPROXY写入.bash_profile中
+
+`go mod init [MODULE_PATH]`：初始化 Go modules，它将会生成 go.mod 文件，MODULE_PATH 填写的是模块引入路径，如果想要把项目放到Github上，可以填写GitHub的项目路径，这个根据自己情况填写。
+
+然后就会在api文件夹下出现go.mod文件
+
+安装gin框架
+
+`go get -u github.com/gin-gonic/gin`
+
+测试框架是否可用
+
+创建test.go文件
+
+```go
+package main
+
+import "github.com/gin-gonic/gin"
+
+func main() {
+  r := gin.Default()
+  r.GET("/ping", func(context *gin.Context) {
+	    context.JSON(200,gin.H{
+	     "data":"success",
+	   })
+  })
+  r.Run()
+}
+```
+
+然后go run test.go
+
+浏览器打开127.0.0.1:8080/ping 可以看到返回数据
+
