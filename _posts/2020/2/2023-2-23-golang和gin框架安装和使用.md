@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "golang和gin框架安装和使用"
+title: "一、golang和gin框架安装和使用"
 date: 2019-11-11
 desc: golang和gin框架安装和使用
 image: 
@@ -10,7 +10,7 @@ category: golang ang gin
 
 ---
 
-**一、golang和gin框架安装和使用**
+话不多说，让我们开始基础的环境、架构安装与配置。
 
 `mkdir api && cd api`：创建并进入api文件夹
 
