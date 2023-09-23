@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "一、golang和gin框架安装和使用"
+title: "二、golang和gin框架安装和使用"
 date: 2022-2-24
 desc: golang和gin框架安装和使用
 image: 
